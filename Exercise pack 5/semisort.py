@@ -1,3 +1,10 @@
+
+#A list contains numbers 1...n in some order. With every move you get
+#to change two adjacent numbers. The goal is to sort a list so that
+#every number in the first half of the list are smaller than in the second half.
+#Time complexity is O(n)
+#A function returns the count of smallest possible moves to get the asked list.
+
 def solve(t):
     moves = 0
 

@@ -1,3 +1,8 @@
+#There are n boxes in the storage and each of them weights some amount.
+#How many boxes van you pack into a car, when the max weight for packing is x?
+#Time complexity for this algorithm is O(nlogn)
+#A function returns the amount of boxes possible to pack
+
 def solve(t, x):
     t.sort()
     sum = 0

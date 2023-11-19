@@ -1,3 +1,9 @@
+#You are given a list with n integers. The goal is to pick as many integers as possible.
+#First number can be any but every number after that has to be number+1
+#bigger than the previous one. How many numbers can you pick from the list?
+#Time complexity for this algorithm is O(nlogn)
+#A function returns the count of picked numbers
+
 def count(t):
     t.sort()
     tset = {}

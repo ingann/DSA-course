@@ -1,4 +1,10 @@
 
+#A list has n integers between 1...k. The goal is to add a new integer
+#between 1...k, of which distance to a number already present in a list
+#is as big as possible. 
+#Time complexity for this algorithm is O(n)
+#A function returns the biggest possible distance
+
 def find(t, k): 
     if len(t) == 1:
         return max(t[0]-1, k-t[0])
